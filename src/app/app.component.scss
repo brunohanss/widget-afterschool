@@ -1,0 +1,22 @@
+.widget-image {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  cursor: pointer
+}
+
+.widget-image-close {
+  position: absolute;
+  right: 50px;
+  bottom: 5px;
+  cursor: pointer;
+  z-index: 1
+}
+
+.widget-chat {
+  position: absolute;
+  height: 600px;
+  width: 360px;
+  right: 50px;
+  top: 400px;
+}

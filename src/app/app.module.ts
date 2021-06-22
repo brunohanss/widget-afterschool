@@ -1,16 +1,20 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import BotUI from 'botui';
 
 import { AppComponent } from './app.component';
+import { WidgetComponent } from './widget/widget.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WidgetComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
